@@ -1,0 +1,17 @@
+Pour compiler  .o :
+-I/usr/include/qt4
+-I/usr/include/qt4/QtGui
+-I/usr/include/qt4/QtCore
+
+
+GUIsimple : gui_simple.o
+g++ $^ -o $@
+-l Qtcore
+-l QtGui 
+
+
+carre.o : carre.cpp :
+g++ 
+
+
+CourbeCarre : 
